@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 720px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.sectors{
+    display: flex;
+
+}
+.sector1{
+ width: 307px;
+ height: 500px; 
+ background-color: #E28625; 
+ border-radius: 10px 0 0 10px; 
+}
+.sector2{
+width: 307px;
+height: 500px; 
+background-color: #006971;  
+border-radius: 7px;
+}
+.sector3{
+width: 307px;
+height: 500px;  
+background-color: #004140; 
+border-radius: 0 10px 10px 0;
+}
+.sedan_p{
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    width: 212px;
+    height: 125px;
+    color: #fff;
+    margin-bottom: 83px;
+
+}
+.sedan{
+    font-family: 'Big shoulders display';
+    font-size: 40px;
+    color: #fff;
+    width: 101px;
+    height: 48px;
+    margin-bottom: 25px;
+}
+.link{
+    padding:10px 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+
+    transition: all 1s ease;
+}
+
+.link:hover {
+    background-color: white;
+    color: #E28625;  
+    
+}
+
+.middle:hover{
+    background-color: #fff;
+    color: #006971; ;
+}
+
+.end:hover {
+    background-color: #fff;
+    color: #004140; ;
+}
+.sedan_box{
+    padding: 48px;
+}
+
+.sedan_box::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 64px;
+    height: 40px;
+    display: inline-block;
+}
+.luxery::before{
+    background-image: url("./IMAGE/icon-luxury.svg");
+    margin-bottom: 35px;
+}
+.hecbag::before{
+    background-image: url("./IMAGE/Group\ 6.png");
+    margin-bottom: 35px;
+}
+.sedy::before{
+    background-image: url("./IMAGE/icon-sedan.svg");
+    margin-bottom: 35px;
+}
+
+
+.light {
+  
+}
+
+.lux {
+   
+}
